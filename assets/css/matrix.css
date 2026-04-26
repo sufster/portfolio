@@ -1,0 +1,22 @@
+/* MATRIX EFFECT ONLY FOR ABOUT SECTION */
+#hero, #about {
+  position: relative;
+  overflow: hidden;
+  background: black; /* needed for matrix look */
+}
+
+#matrix-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#hero .container,
+#about .container
+ {
+  position: relative;
+  z-index: 2;
+}
